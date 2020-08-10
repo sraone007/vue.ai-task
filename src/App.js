@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Source from './Source';
-import Target from './Target';
+import Header from './components/Header';
+import Source from './components/source/Source';
+import Target from './components/target/Target';
 import { DragDropContext } from 'react-dnd';
 import HTML5Backend from 'react-dnd-html5-backend';
 import _ from 'lodash';
