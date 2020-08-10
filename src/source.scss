@@ -1,0 +1,32 @@
+.source{
+    width: 400px;
+    min-height: 90vh;
+    padding:  2rem 1rem;
+    border-right: 1px solid #eee;
+    //background-color: silver;
+    background-color: #cccccc;
+    //background-color: #98b1c4;
+}
+.source ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.source ul li{
+    cursor: move;
+    padding: .8rem;
+    background-color: rgba(0,0,0,0.6);
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    margin: 25px;
+}
+
+.source ul li:hover{
+    //background: #eee;
+    background-color: white;
+    color: rgba(0,0,0,0.8);
+}
